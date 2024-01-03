@@ -19,7 +19,7 @@
 const OBLOQ_DEBUG = false
 const OBLOQ_MQTT_DEFAULT_SERVER = true
 //DFRobot easy iot
-const OBLOQ_MQTT_EASY_IOT_SERVER_CHINA = "iot.dfrobot.com.cn"
+const OBLOQ_MQTT_EASY_IOT_SERVER_CHINA = "io.adafruit.com"
 const OBLOQ_MQTT_EASY_IOT_SERVER_GLOBAL = "api.beebotte.com"
 const OBLOQ_MQTT_EASY_IOT_SERVER_EN = "iot.dfrobot.com"
 const OBLOQ_MQTT_EASY_IOT_SERVER_TK = "api.thingspeak.com"
@@ -109,7 +109,7 @@ namespace DFRobotWiFiIoTUART {
     let microIoT_BEEBOTTE_Token = ""
     let G_city = 0;
     export enum SERVERS {
-        //% blockId=SERVERS_China block="EasyIoT_CN"
+        //% blockId=SERVERS_China block="adafruit"
         China,
         //% blockId=SERVERS_English block="EasyIoT_EN"
         English,
